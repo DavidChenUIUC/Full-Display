@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<!-- <head> -->
+    <!-- <link rel="stylesheet" href='/staticFiles/main.css' /> -->
+  <!-- </head> -->
+  <body>
+    <h1>Upload and display image in Flask</h1>
+    <p>flask display image from uploaded folder </p>
+    {% for name in user_image %}
+    <img src="{{ url_for('static', filename = name) }}" width="600" height="480"> 
+    <p>"{{name}}"</p>
+    {% endfor %}
+</html>
