@@ -1,2 +1,2 @@
 # Full-Display
-Allow user upload images
+Allow users to upload images and fast demo
